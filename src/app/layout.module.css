@@ -1,0 +1,19 @@
+.appContainer {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.mainContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: var(--bg-color);
+}
+
+.pageContent {
+  flex: 1;
+  overflow-y: auto;
+  position: relative;
+}

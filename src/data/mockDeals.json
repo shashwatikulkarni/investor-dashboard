@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "deal_1",
+    "companyName": "Company 1 (Web3)",
+    "description": "Innovative Web3 startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Web3",
+    "amount": 3795844,
+    "roi": 9.22,
+    "risk": "Medium",
+    "status": "Closed",
+    "createdAt": "2026-03-23T05:35:27.620Z",
+    "metrics": {
+      "revenue": 4932736,
+      "burnRate": 229639,
+      "users": 86399
+    }
+  },
+  {
+    "id": "deal_2",
+    "companyName": "Company 2 (Edtech)",
+    "description": "Innovative Edtech startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Edtech",
+    "amount": 2981419,
+    "roi": 18.72,
+    "risk": "Low",
+    "status": "In Review",
+    "createdAt": "2026-05-10T12:36:41.786Z",
+    "metrics": {
+      "revenue": 6566189,
+      "burnRate": 388130,
+      "users": 47963
+    }
+  },
+  {
+    "id": "deal_3",
+    "companyName": "Company 3 (E-commerce)",
+    "description": "Innovative E-commerce startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "E-commerce",
+    "amount": 3981112,
+    "roi": 12.07,
+    "risk": "Low",
+    "status": "In Review",
+    "createdAt": "2026-02-02T09:22:20.382Z",
+    "metrics": {
+      "revenue": 5823174,
+      "burnRate": 579917,
+      "users": 78202
+    }
+  },
+  {
+    "id": "deal_4",
+    "companyName": "Company 4 (Web3)",
+    "description": "Innovative Web3 startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Web3",
+    "amount": 1170209,
+    "roi": 9.04,
+    "risk": "Medium",
+    "status": "In Review",
+    "createdAt": "2026-04-13T13:14:27.683Z",
+    "metrics": {
+      "revenue": 1540914,
+      "burnRate": 158286,
+      "users": 6786
+    }
+  },
+  {
+    "id": "deal_5",
+    "companyName": "Company 5 (Edtech)",
+    "description": "Innovative Edtech startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Edtech",
+    "amount": 3689849,
+    "roi": 17.84,
+    "risk": "Medium",
+    "status": "Active",
+    "createdAt": "2026-04-17T23:35:14.123Z",
+    "metrics": {
+      "revenue": 2878779,
+      "burnRate": 383433,
+      "users": 95868
+    }
+  },
+  {
+    "id": "deal_6",
+    "companyName": "Company 6 (Web3)",
+    "description": "Innovative Web3 startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Web3",
+    "amount": 3604539,
+    "roi": 8.28,
+    "risk": "High",
+    "status": "In Review",
+    "createdAt": "2026-02-08T15:07:37.350Z",
+    "metrics": {
+      "revenue": 4245984,
+      "burnRate": 307556,
+      "users": 73123
+    }
+  },
+  {
+    "id": "deal_7",
+    "companyName": "Company 7 (Fintech)",
+    "description": "Innovative Fintech startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Fintech",
+    "amount": 2928395,
+    "roi": 15.57,
+    "risk": "High",
+    "status": "In Review",
+    "createdAt": "2026-02-19T23:49:15.057Z",
+    "metrics": {
+      "revenue": 2677634,
+      "burnRate": 115992,
+      "users": 75439
+    }
+  },
+  {
+    "id": "deal_8",
+    "companyName": "Company 8 (Fintech)",
+    "description": "Innovative Fintech startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Fintech",
+    "amount": 1673939,
+    "roi": 7.19,
+    "risk": "Medium",
+    "status": "Closed",
+    "createdAt": "2026-03-13T17:20:36.541Z",
+    "metrics": {
+      "revenue": 1840380,
+      "burnRate": 127228,
+      "users": 73715
+    }
+  },
+  {
+    "id": "deal_9",
+    "companyName": "Company 9 (Web3)",
+    "description": "Innovative Web3 startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Web3",
+    "amount": 1671656,
+    "roi": 12.98,
+    "risk": "High",
+    "status": "In Review",
+    "createdAt": "2026-02-03T13:53:41.752Z",
+    "metrics": {
+      "revenue": 1700801,
+      "burnRate": 160860,
+      "users": 57489
+    }
+  },
+  {
+    "id": "deal_10",
+    "companyName": "Company 10 (Edtech)",
+    "description": "Innovative Edtech startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Edtech",
+    "amount": 2514941,
+    "roi": 15.29,
+    "risk": "High",
+    "status": "In Review",
+    "createdAt": "2026-03-22T04:18:55.007Z",
+    "metrics": {
+      "revenue": 1921660,
+      "burnRate": 279966,
+      "users": 39571
+    }
+  },
+  {
+    "id": "deal_11",
+    "companyName": "Company 11 (Healthtech)",
+    "description": "Innovative Healthtech startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Healthtech",
+    "amount": 1346259,
+    "roi": 5.66,
+    "risk": "Medium",
+    "status": "In Review",
+    "createdAt": "2026-03-25T16:45:02.341Z",
+    "metrics": {
+      "revenue": 1918956,
+      "burnRate": 20465,
+      "users": 43522
+    }
+  },
+  {
+    "id": "deal_12",
+    "companyName": "Company 12 (Logistics)",
+    "description": "Innovative Logistics startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Logistics",
+    "amount": 4413731,
+    "roi": 9.76,
+    "risk": "High",
+    "status": "In Review",
+    "createdAt": "2026-02-12T09:12:31.923Z",
+    "metrics": {
+      "revenue": 8885238,
+      "burnRate": 716421,
+      "users": 55777
+    }
+  },
+  {
+    "id": "deal_13",
+    "companyName": "Company 13 (SaaS)",
+    "description": "Innovative SaaS startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "SaaS",
+    "amount": 3441025,
+    "roi": 16.35,
+    "risk": "Low",
+    "status": "Active",
+    "createdAt": "2026-04-05T03:40:18.039Z",
+    "metrics": {
+      "revenue": 3398575,
+      "burnRate": 564629,
+      "users": 32166
+    }
+  },
+  {
+    "id": "deal_14",
+    "companyName": "Company 14 (Web3)",
+    "description": "Innovative Web3 startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Web3",
+    "amount": 3727331,
+    "roi": 18.56,
+    "risk": "Medium",
+    "status": "In Review",
+    "createdAt": "2026-01-26T17:11:44.398Z",
+    "metrics": {
+      "revenue": 3757890,
+      "burnRate": 148410,
+      "users": 18710
+    }
+  },
+  {
+    "id": "deal_15",
+    "companyName": "Company 15 (SaaS)",
+    "description": "Innovative SaaS startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "SaaS",
+    "amount": 1219243,
+    "roi": 19.28,
+    "risk": "Low",
+    "status": "Active",
+    "createdAt": "2026-05-07T16:19:51.903Z",
+    "metrics": {
+      "revenue": 2499368,
+      "burnRate": 113689,
+      "users": 57383
+    }
+  },
+  {
+    "id": "deal_16",
+    "companyName": "Company 16 (Logistics)",
+    "description": "Innovative Logistics startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Logistics",
+    "amount": 703695,
+    "roi": 6.59,
+    "risk": "Medium",
+    "status": "Active",
+    "createdAt": "2026-02-21T04:34:39.814Z",
+    "metrics": {
+      "revenue": 907286,
+      "burnRate": 93971,
+      "users": 30595
+    }
+  },
+  {
+    "id": "deal_17",
+    "companyName": "Company 17 (Edtech)",
+    "description": "Innovative Edtech startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Edtech",
+    "amount": 3412097,
+    "roi": 10.2,
+    "risk": "Low",
+    "status": "In Review",
+    "createdAt": "2026-02-23T21:04:59.927Z",
+    "metrics": {
+      "revenue": 6305974,
+      "burnRate": 674708,
+      "users": 12901
+    }
+  },
+  {
+    "id": "deal_18",
+    "companyName": "Company 18 (Edtech)",
+    "description": "Innovative Edtech startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Edtech",
+    "amount": 3927524,
+    "roi": 6.85,
+    "risk": "Medium",
+    "status": "Active",
+    "createdAt": "2026-05-08T07:28:05.967Z",
+    "metrics": {
+      "revenue": 3391291,
+      "burnRate": 223609,
+      "users": 43930
+    }
+  },
+  {
+    "id": "deal_19",
+    "companyName": "Company 19 (Web3)",
+    "description": "Innovative Web3 startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Web3",
+    "amount": 2716187,
+    "roi": 6.6,
+    "risk": "High",
+    "status": "In Review",
+    "createdAt": "2026-01-24T19:57:01.925Z",
+    "metrics": {
+      "revenue": 5989113,
+      "burnRate": 85282,
+      "users": 62839
+    }
+  },
+  {
+    "id": "deal_20",
+    "companyName": "Company 20 (E-commerce)",
+    "description": "Innovative E-commerce startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "E-commerce",
+    "amount": 4868921,
+    "roi": 13.08,
+    "risk": "Low",
+    "status": "Active",
+    "createdAt": "2026-03-01T04:04:07.886Z",
+    "metrics": {
+      "revenue": 2794391,
+      "burnRate": 671757,
+      "users": 55007
+    }
+  },
+  {
+    "id": "deal_21",
+    "companyName": "Company 21 (AI/ML)",
+    "description": "Innovative AI/ML startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "AI/ML",
+    "amount": 4440610,
+    "roi": 12.48,
+    "risk": "Medium",
+    "status": "Active",
+    "createdAt": "2026-01-25T03:18:04.151Z",
+    "metrics": {
+      "revenue": 10450667,
+      "burnRate": 433490,
+      "users": 49794
+    }
+  },
+  {
+    "id": "deal_22",
+    "companyName": "Company 22 (Fintech)",
+    "description": "Innovative Fintech startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Fintech",
+    "amount": 5094427,
+    "roi": 8.3,
+    "risk": "Low",
+    "status": "Active",
+    "createdAt": "2026-03-01T10:32:56.499Z",
+    "metrics": {
+      "revenue": 10321342,
+      "burnRate": 475013,
+      "users": 47657
+    }
+  },
+  {
+    "id": "deal_23",
+    "companyName": "Company 23 (AI/ML)",
+    "description": "Innovative AI/ML startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "AI/ML",
+    "amount": 838369,
+    "roi": 13.95,
+    "risk": "Medium",
+    "status": "Closed",
+    "createdAt": "2026-02-28T00:22:03.071Z",
+    "metrics": {
+      "revenue": 1306089,
+      "burnRate": 66219,
+      "users": 54257
+    }
+  },
+  {
+    "id": "deal_24",
+    "companyName": "Company 24 (E-commerce)",
+    "description": "Innovative E-commerce startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "E-commerce",
+    "amount": 3649308,
+    "roi": 6.47,
+    "risk": "Medium",
+    "status": "Closed",
+    "createdAt": "2026-04-23T10:03:18.520Z",
+    "metrics": {
+      "revenue": 8156543,
+      "burnRate": 572628,
+      "users": 76604
+    }
+  },
+  {
+    "id": "deal_25",
+    "companyName": "Company 25 (AI/ML)",
+    "description": "Innovative AI/ML startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "AI/ML",
+    "amount": 643277,
+    "roi": 5.4,
+    "risk": "Low",
+    "status": "Pending",
+    "createdAt": "2026-02-23T20:09:58.632Z",
+    "metrics": {
+      "revenue": 1155874,
+      "burnRate": 42213,
+      "users": 23408
+    }
+  },
+  {
+    "id": "deal_26",
+    "companyName": "Company 26 (AI/ML)",
+    "description": "Innovative AI/ML startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "AI/ML",
+    "amount": 3328856,
+    "roi": 5.55,
+    "risk": "Low",
+    "status": "In Review",
+    "createdAt": "2026-04-28T18:40:07.346Z",
+    "metrics": {
+      "revenue": 6001634,
+      "burnRate": 30661,
+      "users": 1910
+    }
+  },
+  {
+    "id": "deal_27",
+    "companyName": "Company 27 (Fintech)",
+    "description": "Innovative Fintech startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Fintech",
+    "amount": 2390470,
+    "roi": 10.82,
+    "risk": "Medium",
+    "status": "Closed",
+    "createdAt": "2026-03-04T02:00:48.076Z",
+    "metrics": {
+      "revenue": 2890516,
+      "burnRate": 269225,
+      "users": 52661
+    }
+  },
+  {
+    "id": "deal_28",
+    "companyName": "Company 28 (Healthtech)",
+    "description": "Innovative Healthtech startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Healthtech",
+    "amount": 3920228,
+    "roi": 17.15,
+    "risk": "High",
+    "status": "Closed",
+    "createdAt": "2026-03-10T18:25:24.160Z",
+    "metrics": {
+      "revenue": 2215366,
+      "burnRate": 629978,
+      "users": 32832
+    }
+  },
+  {
+    "id": "deal_29",
+    "companyName": "Company 29 (Web3)",
+    "description": "Innovative Web3 startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Web3",
+    "amount": 1616356,
+    "roi": 8.23,
+    "risk": "High",
+    "status": "In Review",
+    "createdAt": "2026-02-03T18:27:45.186Z",
+    "metrics": {
+      "revenue": 2457062,
+      "burnRate": 317741,
+      "users": 38427
+    }
+  },
+  {
+    "id": "deal_30",
+    "companyName": "Company 30 (Web3)",
+    "description": "Innovative Web3 startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Web3",
+    "amount": 4496469,
+    "roi": 7.11,
+    "risk": "High",
+    "status": "Closed",
+    "createdAt": "2026-03-14T06:23:31.791Z",
+    "metrics": {
+      "revenue": 7884576,
+      "burnRate": 123574,
+      "users": 8017
+    }
+  },
+  {
+    "id": "deal_31",
+    "companyName": "Company 31 (Cybersecurity)",
+    "description": "Innovative Cybersecurity startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Cybersecurity",
+    "amount": 1877568,
+    "roi": 16.64,
+    "risk": "Low",
+    "status": "Closed",
+    "createdAt": "2026-04-07T08:26:09.009Z",
+    "metrics": {
+      "revenue": 3627858,
+      "burnRate": 86618,
+      "users": 82785
+    }
+  },
+  {
+    "id": "deal_32",
+    "companyName": "Company 32 (Fintech)",
+    "description": "Innovative Fintech startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Fintech",
+    "amount": 4249263,
+    "roi": 16.49,
+    "risk": "High",
+    "status": "Active",
+    "createdAt": "2026-05-07T23:26:29.318Z",
+    "metrics": {
+      "revenue": 5858261,
+      "burnRate": 174994,
+      "users": 43363
+    }
+  },
+  {
+    "id": "deal_33",
+    "companyName": "Company 33 (E-commerce)",
+    "description": "Innovative E-commerce startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "E-commerce",
+    "amount": 594687,
+    "roi": 10.27,
+    "risk": "Medium",
+    "status": "Closed",
+    "createdAt": "2026-04-25T23:41:41.964Z",
+    "metrics": {
+      "revenue": 1185472,
+      "burnRate": 27123,
+      "users": 45640
+    }
+  },
+  {
+    "id": "deal_34",
+    "companyName": "Company 34 (Logistics)",
+    "description": "Innovative Logistics startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Logistics",
+    "amount": 1817182,
+    "roi": 19.07,
+    "risk": "Low",
+    "status": "Pending",
+    "createdAt": "2026-04-21T08:52:39.506Z",
+    "metrics": {
+      "revenue": 1481918,
+      "burnRate": 68983,
+      "users": 89403
+    }
+  },
+  {
+    "id": "deal_35",
+    "companyName": "Company 35 (AI/ML)",
+    "description": "Innovative AI/ML startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "AI/ML",
+    "amount": 688307,
+    "roi": 9.16,
+    "risk": "Medium",
+    "status": "In Review",
+    "createdAt": "2026-05-01T20:36:22.969Z",
+    "metrics": {
+      "revenue": 630070,
+      "burnRate": 128121,
+      "users": 65760
+    }
+  },
+  {
+    "id": "deal_36",
+    "companyName": "Company 36 (E-commerce)",
+    "description": "Innovative E-commerce startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "E-commerce",
+    "amount": 3137154,
+    "roi": 9.93,
+    "risk": "Medium",
+    "status": "Pending",
+    "createdAt": "2026-02-27T06:09:57.099Z",
+    "metrics": {
+      "revenue": 2763793,
+      "burnRate": 552137,
+      "users": 26207
+    }
+  },
+  {
+    "id": "deal_37",
+    "companyName": "Company 37 (E-commerce)",
+    "description": "Innovative E-commerce startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "E-commerce",
+    "amount": 884679,
+    "roi": 6.03,
+    "risk": "Low",
+    "status": "Closed",
+    "createdAt": "2026-02-05T02:51:02.990Z",
+    "metrics": {
+      "revenue": 2046447,
+      "burnRate": 159387,
+      "users": 47932
+    }
+  },
+  {
+    "id": "deal_38",
+    "companyName": "Company 38 (Fintech)",
+    "description": "Innovative Fintech startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Fintech",
+    "amount": 266588,
+    "roi": 7.96,
+    "risk": "Low",
+    "status": "In Review",
+    "createdAt": "2026-03-20T04:24:48.460Z",
+    "metrics": {
+      "revenue": 548743,
+      "burnRate": 20060,
+      "users": 67069
+    }
+  },
+  {
+    "id": "deal_39",
+    "companyName": "Company 39 (Logistics)",
+    "description": "Innovative Logistics startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Logistics",
+    "amount": 5019866,
+    "roi": 18.42,
+    "risk": "Medium",
+    "status": "Pending",
+    "createdAt": "2026-02-13T07:53:12.929Z",
+    "metrics": {
+      "revenue": 10886166,
+      "burnRate": 853136,
+      "users": 61481
+    }
+  },
+  {
+    "id": "deal_40",
+    "companyName": "Company 40 (Logistics)",
+    "description": "Innovative Logistics startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Logistics",
+    "amount": 3758745,
+    "roi": 16.49,
+    "risk": "Medium",
+    "status": "Closed",
+    "createdAt": "2026-04-08T02:37:42.143Z",
+    "metrics": {
+      "revenue": 3749806,
+      "burnRate": 683908,
+      "users": 74142
+    }
+  },
+  {
+    "id": "deal_41",
+    "companyName": "Company 41 (Fintech)",
+    "description": "Innovative Fintech startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Fintech",
+    "amount": 4336518,
+    "roi": 15.7,
+    "risk": "Low",
+    "status": "Pending",
+    "createdAt": "2026-04-03T03:33:50.819Z",
+    "metrics": {
+      "revenue": 9162240,
+      "burnRate": 449537,
+      "users": 75117
+    }
+  },
+  {
+    "id": "deal_42",
+    "companyName": "Company 42 (Greentech)",
+    "description": "Innovative Greentech startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Greentech",
+    "amount": 4671811,
+    "roi": 12.25,
+    "risk": "High",
+    "status": "Active",
+    "createdAt": "2026-02-21T07:02:41.594Z",
+    "metrics": {
+      "revenue": 7843144,
+      "burnRate": 142910,
+      "users": 8381
+    }
+  },
+  {
+    "id": "deal_43",
+    "companyName": "Company 43 (Cybersecurity)",
+    "description": "Innovative Cybersecurity startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Cybersecurity",
+    "amount": 4689264,
+    "roi": 18.61,
+    "risk": "Medium",
+    "status": "In Review",
+    "createdAt": "2026-02-23T01:46:21.461Z",
+    "metrics": {
+      "revenue": 8620793,
+      "burnRate": 143481,
+      "users": 63702
+    }
+  },
+  {
+    "id": "deal_44",
+    "companyName": "Company 44 (SaaS)",
+    "description": "Innovative SaaS startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "SaaS",
+    "amount": 3789812,
+    "roi": 13.76,
+    "risk": "High",
+    "status": "Active",
+    "createdAt": "2026-03-03T07:00:25.335Z",
+    "metrics": {
+      "revenue": 5083821,
+      "burnRate": 340530,
+      "users": 4874
+    }
+  },
+  {
+    "id": "deal_45",
+    "companyName": "Company 45 (Greentech)",
+    "description": "Innovative Greentech startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Greentech",
+    "amount": 1136800,
+    "roi": 10.17,
+    "risk": "High",
+    "status": "In Review",
+    "createdAt": "2026-04-12T03:08:55.813Z",
+    "metrics": {
+      "revenue": 2812748,
+      "burnRate": 117117,
+      "users": 75690
+    }
+  },
+  {
+    "id": "deal_46",
+    "companyName": "Company 46 (Logistics)",
+    "description": "Innovative Logistics startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Logistics",
+    "amount": 4040177,
+    "roi": 16.2,
+    "risk": "High",
+    "status": "In Review",
+    "createdAt": "2026-01-28T08:16:25.772Z",
+    "metrics": {
+      "revenue": 3737452,
+      "burnRate": 584301,
+      "users": 13416
+    }
+  },
+  {
+    "id": "deal_47",
+    "companyName": "Company 47 (Fintech)",
+    "description": "Innovative Fintech startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Fintech",
+    "amount": 4502641,
+    "roi": 6.04,
+    "risk": "Low",
+    "status": "Pending",
+    "createdAt": "2026-05-06T06:29:04.247Z",
+    "metrics": {
+      "revenue": 6654736,
+      "burnRate": 540240,
+      "users": 73891
+    }
+  },
+  {
+    "id": "deal_48",
+    "companyName": "Company 48 (Fintech)",
+    "description": "Innovative Fintech startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Fintech",
+    "amount": 3453025,
+    "roi": 17.81,
+    "risk": "High",
+    "status": "In Review",
+    "createdAt": "2026-02-22T11:09:35.501Z",
+    "metrics": {
+      "revenue": 7772209,
+      "burnRate": 492753,
+      "users": 76795
+    }
+  },
+  {
+    "id": "deal_49",
+    "companyName": "Company 49 (Cybersecurity)",
+    "description": "Innovative Cybersecurity startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Cybersecurity",
+    "amount": 165346,
+    "roi": 17.79,
+    "risk": "Medium",
+    "status": "Pending",
+    "createdAt": "2026-01-29T21:37:52.184Z",
+    "metrics": {
+      "revenue": 206072,
+      "burnRate": 31217,
+      "users": 30732
+    }
+  },
+  {
+    "id": "deal_50",
+    "companyName": "Company 50 (Fintech)",
+    "description": "Innovative Fintech startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Fintech",
+    "amount": 3009298,
+    "roi": 17.28,
+    "risk": "Low",
+    "status": "Pending",
+    "createdAt": "2026-03-15T17:56:58.116Z",
+    "metrics": {
+      "revenue": 3851864,
+      "burnRate": 247514,
+      "users": 54176
+    }
+  },
+  {
+    "id": "deal_51",
+    "companyName": "Company 51 (AI/ML)",
+    "description": "Innovative AI/ML startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "AI/ML",
+    "amount": 4549905,
+    "roi": 19.58,
+    "risk": "Low",
+    "status": "Closed",
+    "createdAt": "2026-01-18T01:34:45.779Z",
+    "metrics": {
+      "revenue": 6185498,
+      "burnRate": 269638,
+      "users": 24682
+    }
+  },
+  {
+    "id": "deal_52",
+    "companyName": "Company 52 (Healthtech)",
+    "description": "Innovative Healthtech startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Healthtech",
+    "amount": 4031624,
+    "roi": 11.46,
+    "risk": "Medium",
+    "status": "Active",
+    "createdAt": "2026-02-01T18:40:37.581Z",
+    "metrics": {
+      "revenue": 3915222,
+      "burnRate": 218868,
+      "users": 14338
+    }
+  },
+  {
+    "id": "deal_53",
+    "companyName": "Company 53 (Fintech)",
+    "description": "Innovative Fintech startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Fintech",
+    "amount": 2802071,
+    "roi": 8.42,
+    "risk": "Low",
+    "status": "Closed",
+    "createdAt": "2026-01-20T05:09:10.195Z",
+    "metrics": {
+      "revenue": 3192849,
+      "burnRate": 113906,
+      "users": 82220
+    }
+  },
+  {
+    "id": "deal_54",
+    "companyName": "Company 54 (Fintech)",
+    "description": "Innovative Fintech startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Fintech",
+    "amount": 3473475,
+    "roi": 15.28,
+    "risk": "Low",
+    "status": "Pending",
+    "createdAt": "2026-04-23T00:36:21.336Z",
+    "metrics": {
+      "revenue": 6842486,
+      "burnRate": 596083,
+      "users": 47631
+    }
+  },
+  {
+    "id": "deal_55",
+    "companyName": "Company 55 (Cybersecurity)",
+    "description": "Innovative Cybersecurity startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Cybersecurity",
+    "amount": 2485727,
+    "roi": 18.31,
+    "risk": "Low",
+    "status": "Closed",
+    "createdAt": "2026-03-09T18:01:19.320Z",
+    "metrics": {
+      "revenue": 5214227,
+      "burnRate": 133691,
+      "users": 11322
+    }
+  },
+  {
+    "id": "deal_56",
+    "companyName": "Company 56 (Edtech)",
+    "description": "Innovative Edtech startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Edtech",
+    "amount": 1081551,
+    "roi": 6.95,
+    "risk": "Medium",
+    "status": "In Review",
+    "createdAt": "2026-03-04T00:53:05.444Z",
+    "metrics": {
+      "revenue": 2689931,
+      "burnRate": 117772,
+      "users": 51289
+    }
+  },
+  {
+    "id": "deal_57",
+    "companyName": "Company 57 (Healthtech)",
+    "description": "Innovative Healthtech startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Healthtech",
+    "amount": 2298855,
+    "roi": 10.12,
+    "risk": "Medium",
+    "status": "Active",
+    "createdAt": "2026-04-27T15:16:08.249Z",
+    "metrics": {
+      "revenue": 3031191,
+      "burnRate": 48286,
+      "users": 39649
+    }
+  },
+  {
+    "id": "deal_58",
+    "companyName": "Company 58 (Cybersecurity)",
+    "description": "Innovative Cybersecurity startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Cybersecurity",
+    "amount": 5025478,
+    "roi": 18.86,
+    "risk": "Medium",
+    "status": "Closed",
+    "createdAt": "2026-05-04T15:40:26.170Z",
+    "metrics": {
+      "revenue": 5352770,
+      "burnRate": 963652,
+      "users": 79609
+    }
+  },
+  {
+    "id": "deal_59",
+    "companyName": "Company 59 (Logistics)",
+    "description": "Innovative Logistics startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Logistics",
+    "amount": 737037,
+    "roi": 18.86,
+    "risk": "Medium",
+    "status": "Closed",
+    "createdAt": "2026-05-02T16:35:38.166Z",
+    "metrics": {
+      "revenue": 616023,
+      "burnRate": 78075,
+      "users": 26478
+    }
+  },
+  {
+    "id": "deal_60",
+    "companyName": "Company 60 (Fintech)",
+    "description": "Innovative Fintech startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Fintech",
+    "amount": 2927843,
+    "roi": 12.3,
+    "risk": "Medium",
+    "status": "Active",
+    "createdAt": "2026-04-24T20:50:23.985Z",
+    "metrics": {
+      "revenue": 5075052,
+      "burnRate": 423543,
+      "users": 99601
+    }
+  },
+  {
+    "id": "deal_61",
+    "companyName": "Company 61 (AI/ML)",
+    "description": "Innovative AI/ML startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "AI/ML",
+    "amount": 2320479,
+    "roi": 11.24,
+    "risk": "High",
+    "status": "Pending",
+    "createdAt": "2026-04-20T20:52:51.677Z",
+    "metrics": {
+      "revenue": 4572357,
+      "burnRate": 859,
+      "users": 39301
+    }
+  },
+  {
+    "id": "deal_62",
+    "companyName": "Company 62 (Web3)",
+    "description": "Innovative Web3 startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Web3",
+    "amount": 725755,
+    "roi": 5.92,
+    "risk": "High",
+    "status": "Closed",
+    "createdAt": "2026-02-13T06:32:36.530Z",
+    "metrics": {
+      "revenue": 1042685,
+      "burnRate": 109200,
+      "users": 52431
+    }
+  },
+  {
+    "id": "deal_63",
+    "companyName": "Company 63 (E-commerce)",
+    "description": "Innovative E-commerce startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "E-commerce",
+    "amount": 4162427,
+    "roi": 8.47,
+    "risk": "Low",
+    "status": "Active",
+    "createdAt": "2026-04-13T21:16:57.053Z",
+    "metrics": {
+      "revenue": 6382791,
+      "burnRate": 610887,
+      "users": 86270
+    }
+  },
+  {
+    "id": "deal_64",
+    "companyName": "Company 64 (AI/ML)",
+    "description": "Innovative AI/ML startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "AI/ML",
+    "amount": 2681922,
+    "roi": 5.68,
+    "risk": "High",
+    "status": "In Review",
+    "createdAt": "2026-03-12T08:49:34.124Z",
+    "metrics": {
+      "revenue": 5254228,
+      "burnRate": 157735,
+      "users": 22447
+    }
+  },
+  {
+    "id": "deal_65",
+    "companyName": "Company 65 (AI/ML)",
+    "description": "Innovative AI/ML startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "AI/ML",
+    "amount": 1761406,
+    "roi": 15.77,
+    "risk": "Low",
+    "status": "Pending",
+    "createdAt": "2026-02-17T11:02:19.521Z",
+    "metrics": {
+      "revenue": 2265108,
+      "burnRate": 202938,
+      "users": 25943
+    }
+  },
+  {
+    "id": "deal_66",
+    "companyName": "Company 66 (Edtech)",
+    "description": "Innovative Edtech startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Edtech",
+    "amount": 187383,
+    "roi": 13.18,
+    "risk": "Medium",
+    "status": "Pending",
+    "createdAt": "2026-04-29T18:31:39.998Z",
+    "metrics": {
+      "revenue": 340233,
+      "burnRate": 26669,
+      "users": 10935
+    }
+  },
+  {
+    "id": "deal_67",
+    "companyName": "Company 67 (Fintech)",
+    "description": "Innovative Fintech startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Fintech",
+    "amount": 2589122,
+    "roi": 6.41,
+    "risk": "Low",
+    "status": "Closed",
+    "createdAt": "2026-03-22T02:44:59.473Z",
+    "metrics": {
+      "revenue": 5928636,
+      "burnRate": 354099,
+      "users": 46525
+    }
+  },
+  {
+    "id": "deal_68",
+    "companyName": "Company 68 (Healthtech)",
+    "description": "Innovative Healthtech startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Healthtech",
+    "amount": 1827435,
+    "roi": 17.36,
+    "risk": "Medium",
+    "status": "Pending",
+    "createdAt": "2026-02-06T08:21:14.368Z",
+    "metrics": {
+      "revenue": 3076070,
+      "burnRate": 341824,
+      "users": 59146
+    }
+  },
+  {
+    "id": "deal_69",
+    "companyName": "Company 69 (Healthtech)",
+    "description": "Innovative Healthtech startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Healthtech",
+    "amount": 4118761,
+    "roi": 9.79,
+    "risk": "Medium",
+    "status": "In Review",
+    "createdAt": "2026-02-05T06:50:55.890Z",
+    "metrics": {
+      "revenue": 3242893,
+      "burnRate": 795752,
+      "users": 43681
+    }
+  },
+  {
+    "id": "deal_70",
+    "companyName": "Company 70 (AI/ML)",
+    "description": "Innovative AI/ML startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "AI/ML",
+    "amount": 177558,
+    "roi": 17.98,
+    "risk": "Medium",
+    "status": "Active",
+    "createdAt": "2026-01-18T22:50:53.610Z",
+    "metrics": {
+      "revenue": 379260,
+      "burnRate": 28913,
+      "users": 61392
+    }
+  },
+  {
+    "id": "deal_71",
+    "companyName": "Company 71 (E-commerce)",
+    "description": "Innovative E-commerce startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "E-commerce",
+    "amount": 1193282,
+    "roi": 16.5,
+    "risk": "High",
+    "status": "Pending",
+    "createdAt": "2026-01-18T15:34:13.891Z",
+    "metrics": {
+      "revenue": 1367842,
+      "burnRate": 206940,
+      "users": 3806
+    }
+  },
+  {
+    "id": "deal_72",
+    "companyName": "Company 72 (Cybersecurity)",
+    "description": "Innovative Cybersecurity startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Cybersecurity",
+    "amount": 343353,
+    "roi": 7.91,
+    "risk": "Low",
+    "status": "Pending",
+    "createdAt": "2026-04-09T10:08:41.651Z",
+    "metrics": {
+      "revenue": 448669,
+      "burnRate": 67912,
+      "users": 46534
+    }
+  },
+  {
+    "id": "deal_73",
+    "companyName": "Company 73 (E-commerce)",
+    "description": "Innovative E-commerce startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "E-commerce",
+    "amount": 4515177,
+    "roi": 19.2,
+    "risk": "Low",
+    "status": "Pending",
+    "createdAt": "2026-04-20T15:46:11.764Z",
+    "metrics": {
+      "revenue": 3081370,
+      "burnRate": 134873,
+      "users": 2750
+    }
+  },
+  {
+    "id": "deal_74",
+    "companyName": "Company 74 (AI/ML)",
+    "description": "Innovative AI/ML startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "AI/ML",
+    "amount": 1204846,
+    "roi": 17.14,
+    "risk": "Low",
+    "status": "Closed",
+    "createdAt": "2026-04-25T06:04:30.138Z",
+    "metrics": {
+      "revenue": 1694250,
+      "burnRate": 101982,
+      "users": 47202
+    }
+  },
+  {
+    "id": "deal_75",
+    "companyName": "Company 75 (Greentech)",
+    "description": "Innovative Greentech startup focusing on revolutionizing the market with cutting-edge technology.",
+    "industry": "Greentech",
+    "amount": 2704845,
+    "roi": 15.83,
+    "risk": "Low",
+    "status": "In Review",
+    "createdAt": "2026-02-01T01:33:06.838Z",
+    "metrics": {
+      "revenue": 5358353,
+      "burnRate": 55361,
+      "users": 76233
+    }
+  }
+]

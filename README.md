@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Fintech Dashboard
 
-## Getting Started
+A highly interactive and data-rich web dashboard for investors and corporates, built using Next.js (App Router), Redux Toolkit, and Recharts. The application simulates a complex backend through a custom service layer with mock datasets.
 
-First, run the development server:
+## Core Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Investor Dashboard Overview**: Key portfolio metrics and interactive visualizations (Growth, Industry Distribution).
+- **Deal Explorer**: Advanced filtering (Industry, Risk, ROI), sorting, debounced search, and pagination.
+- **Deal Details Page**: In-depth analysis of a deal including company info, financial metrics, and risk assessment tabs.
+- **Recommendation Engine (Frontend)**: Real-time scoring based on investor preferences.
+- **My Interests**: Persisted bookmarking of favorite deals using `localStorage`.
+- **Corporate Dashboard**: Analytics tailored for corporates (Funding raised, investor interest trends).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Architecture & Data Flow
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 1. Data Layer (`/src/data`)
+- Simulated datasets `mockDeals.json` (50+ deals) and `mockInvestors.json`. These are purely frontend artifacts simulating database records.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 2. Service Layer (`/src/services`)
+- `dealService.ts` and `investorService.ts` wrap the mock data access in asynchronous functions returning Promises. 
+- Artificial delays (300-800ms) and random simulated errors are used to mimic real-world network latency and instability.
+- Server-side features like pagination, filtering, and sorting are implemented within these services to simulate SQL queries or backend aggregations.
 
-## Learn More
+### 3. State Management (`/src/store` & `/src/features`)
+- **Redux Toolkit** is used as the global state container.
+- Uses `createAsyncThunk` for managing side effects (calling our mocked services).
+- Handles the complex states of loading, success, and error gracefully.
+- The `userSlice` integrates with `localStorage` to persist "My Interests" across sessions.
 
-To learn more about Next.js, take a look at the following resources:
+### 4. Component Architecture (`/src/components`)
+- **UI Components**: Reusable stateless components (Cards, Buttons, Badges) built with raw CSS Modules.
+- **Layouts**: Standardized structure using `Sidebar` and `Topbar` components.
+- **Charts**: Recharts wrapped in standard Client Components to ensure proper hydration.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Optimization Strategies
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Debounced Search**: User input in the search bar is debounced (`useDebounce` hook) by 500ms before dispatching an action to fetch filtered deals, significantly reducing unnecessary "network" calls and re-renders.
+- **Memoization**: While React 18+ and Next.js handle a lot inherently, components and callbacks are structured to prevent unnecessary re-renders when filters are applied.
+- **CSS Modules over Inline Styles**: Prevents DOM clutter and performance hits from massive inline style recalculations.
+- **Client & Server Component Separation**: Data-heavy UI logic runs on the client (`'use client'`), but Next.js SSR serves the initial layout shell instantly.
+- **Pagination**: Loading 10 items per page ensures the DOM remains lightweight and scrolling performs smoothly.
 
-## Deploy on Vercel
+## Styling & Theme
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Built entirely with **Vanilla CSS / CSS Modules**, complying with requirements to avoid utility-first frameworks like Tailwind unless requested.
+- Implements a seamless Dark/Light Mode toggle using CSS variables.
+- The UI follows a modern Fintech aesthetic with subtle gradients, card depth (box-shadows), and premium micro-interactions (hover states, scaling).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Setup & Running Locally
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Generate mock data (if changes are needed):
+   ```bash
+   node generate-mock-data.js
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.

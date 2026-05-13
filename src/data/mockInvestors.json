@@ -1,0 +1,242 @@
+[
+  {
+    "id": "inv_1",
+    "name": "Investor 1",
+    "type": "Individual",
+    "totalInvested": 7298010,
+    "activeDeals": 9,
+    "preferences": {
+      "industries": [
+        "Fintech",
+        "E-commerce",
+        "Web3"
+      ],
+      "riskTolerance": "Low",
+      "minRoi": 5
+    }
+  },
+  {
+    "id": "inv_2",
+    "name": "Investor 2",
+    "type": "Individual",
+    "totalInvested": 8706634,
+    "activeDeals": 6,
+    "preferences": {
+      "industries": [
+        "Cybersecurity",
+        "Logistics",
+        "SaaS"
+      ],
+      "riskTolerance": "High",
+      "minRoi": 9
+    }
+  },
+  {
+    "id": "inv_3",
+    "name": "Investor 3",
+    "type": "Corporate",
+    "totalInvested": 7712631,
+    "activeDeals": 10,
+    "preferences": {
+      "industries": [
+        "Cybersecurity",
+        "Logistics",
+        "SaaS"
+      ],
+      "riskTolerance": "High",
+      "minRoi": 5
+    }
+  },
+  {
+    "id": "inv_4",
+    "name": "Investor 4",
+    "type": "Individual",
+    "totalInvested": 19877003,
+    "activeDeals": 4,
+    "preferences": {
+      "industries": [
+        "AI/ML",
+        "E-commerce",
+        "Cybersecurity"
+      ],
+      "riskTolerance": "Low",
+      "minRoi": 5
+    }
+  },
+  {
+    "id": "inv_5",
+    "name": "Investor 5",
+    "type": "Individual",
+    "totalInvested": 13732042,
+    "activeDeals": 4,
+    "preferences": {
+      "industries": [
+        "AI/ML",
+        "SaaS",
+        "Healthtech"
+      ],
+      "riskTolerance": "High",
+      "minRoi": 7
+    }
+  },
+  {
+    "id": "inv_6",
+    "name": "Investor 6",
+    "type": "Corporate",
+    "totalInvested": 5822481,
+    "activeDeals": 2,
+    "preferences": {
+      "industries": [
+        "E-commerce",
+        "Edtech",
+        "AI/ML"
+      ],
+      "riskTolerance": "Low",
+      "minRoi": 5
+    }
+  },
+  {
+    "id": "inv_7",
+    "name": "Investor 7",
+    "type": "Individual",
+    "totalInvested": 15975916,
+    "activeDeals": 2,
+    "preferences": {
+      "industries": [
+        "AI/ML",
+        "Edtech",
+        "SaaS"
+      ],
+      "riskTolerance": "Low",
+      "minRoi": 9
+    }
+  },
+  {
+    "id": "inv_8",
+    "name": "Investor 8",
+    "type": "Individual",
+    "totalInvested": 12300348,
+    "activeDeals": 9,
+    "preferences": {
+      "industries": [
+        "Edtech",
+        "AI/ML",
+        "Cybersecurity"
+      ],
+      "riskTolerance": "Low",
+      "minRoi": 9
+    }
+  },
+  {
+    "id": "inv_9",
+    "name": "Investor 9",
+    "type": "Corporate",
+    "totalInvested": 15722923,
+    "activeDeals": 3,
+    "preferences": {
+      "industries": [
+        "Fintech",
+        "Healthtech",
+        "Web3"
+      ],
+      "riskTolerance": "Low",
+      "minRoi": 5
+    }
+  },
+  {
+    "id": "inv_10",
+    "name": "Investor 10",
+    "type": "Individual",
+    "totalInvested": 8796526,
+    "activeDeals": 7,
+    "preferences": {
+      "industries": [
+        "Healthtech",
+        "E-commerce",
+        "Logistics"
+      ],
+      "riskTolerance": "Low",
+      "minRoi": 5
+    }
+  },
+  {
+    "id": "inv_11",
+    "name": "Investor 11",
+    "type": "Individual",
+    "totalInvested": 15946002,
+    "activeDeals": 6,
+    "preferences": {
+      "industries": [
+        "Edtech",
+        "E-commerce",
+        "AI/ML"
+      ],
+      "riskTolerance": "Medium",
+      "minRoi": 7
+    }
+  },
+  {
+    "id": "inv_12",
+    "name": "Investor 12",
+    "type": "Corporate",
+    "totalInvested": 10980765,
+    "activeDeals": 10,
+    "preferences": {
+      "industries": [
+        "Edtech",
+        "Healthtech",
+        "Cybersecurity"
+      ],
+      "riskTolerance": "Low",
+      "minRoi": 8
+    }
+  },
+  {
+    "id": "inv_13",
+    "name": "Investor 13",
+    "type": "Individual",
+    "totalInvested": 5062471,
+    "activeDeals": 1,
+    "preferences": {
+      "industries": [
+        "E-commerce",
+        "Fintech",
+        "Logistics"
+      ],
+      "riskTolerance": "Medium",
+      "minRoi": 6
+    }
+  },
+  {
+    "id": "inv_14",
+    "name": "Investor 14",
+    "type": "Individual",
+    "totalInvested": 15012892,
+    "activeDeals": 6,
+    "preferences": {
+      "industries": [
+        "Healthtech",
+        "Cybersecurity",
+        "Fintech"
+      ],
+      "riskTolerance": "Low",
+      "minRoi": 6
+    }
+  },
+  {
+    "id": "inv_15",
+    "name": "Investor 15",
+    "type": "Corporate",
+    "totalInvested": 16989857,
+    "activeDeals": 1,
+    "preferences": {
+      "industries": [
+        "Fintech",
+        "Web3",
+        "AI/ML"
+      ],
+      "riskTolerance": "Medium",
+      "minRoi": 5
+    }
+  }
+]
