@@ -88,17 +88,29 @@ export const dealService = {
   // /api/deals/[id] and /api/stats routes in Next.js!
   getDealById: async (id: string): Promise<Deal | undefined> => {
     // Fallback implementation pointing to your new DB endpoint
-    const res = await fetch(`/api/deals`);
-    const json = await res.json();
-    const deals: Deal[] = json.data;
-    return deals.find(deal => deal.id === id);
+    try {
+      const res = await fetch(`/api/deals`);
+      if (!res.ok) return undefined;
+      const json = await res.json();
+      const deals: Deal[] = json.data || [];
+      return deals.find(deal => deal.id === id);
+    } catch (err) {
+      return undefined;
+    }
   },
 
   getDealStats: async () => {
     // Fallback implementation pointing to your new DB endpoint
-    const res = await fetch(`/api/deals`);
-    const json = await res.json();
-    const deals: Deal[] = json.data;
+    let deals: Deal[] = [];
+    try {
+      const res = await fetch(`/api/deals`);
+      if (res.ok) {
+        const json = await res.json();
+        deals = json.data || [];
+      }
+    } catch (err) {
+      console.error('Failed to fetch stats', err);
+    }
 
     const activeDeals = deals.filter(d => d.status === 'Active');
     const totalInvestments = activeDeals.reduce((sum, deal) => sum + deal.amount, 0);

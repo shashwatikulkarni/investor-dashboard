@@ -1,9 +1,17 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { InvestorPreferences } from '../../types';
 
+interface Notification {
+  id: string;
+  message: string;
+  read: boolean;
+  timestamp: number;
+}
+
 interface UserState {
   interests: string[]; // List of deal IDs the user is interested in
   investments: string[]; // List of deal IDs the user has invested in
+  notifications: Notification[];
   preferences: InvestorPreferences | null;
   isMobileMenuOpen: boolean;
 }
@@ -14,13 +22,13 @@ const loadState = (): UserState => {
     if (saved) {
       try {
         const parsed = JSON.parse(saved);
-        return { investments: [], isMobileMenuOpen: false, ...parsed };
+        return { investments: [], notifications: [], isMobileMenuOpen: false, ...parsed };
       } catch (e) {
         console.error('Failed to parse user state from localStorage', e);
       }
     }
   }
-  return { interests: [], investments: [], preferences: null, isMobileMenuOpen: false };
+  return { interests: [], investments: [], notifications: [], preferences: null, isMobileMenuOpen: false };
 };
 
 const initialState: UserState = loadState();
@@ -61,9 +69,26 @@ const userSlice = createSlice({
       } else {
         state.isMobileMenuOpen = !state.isMobileMenuOpen;
       }
+    },
+    addNotification(state, action: PayloadAction<string>) {
+      state.notifications.unshift({
+        id: Date.now().toString(),
+        message: action.payload,
+        read: false,
+        timestamp: Date.now()
+      });
+      if (typeof window !== 'undefined') {
+        localStorage.setItem('userState', JSON.stringify(state));
+      }
+    },
+    markNotificationsRead(state) {
+      state.notifications.forEach(n => n.read = true);
+      if (typeof window !== 'undefined') {
+        localStorage.setItem('userState', JSON.stringify(state));
+      }
     }
   }
 });
 
-export const { toggleInterest, setPreferences, addInvestment, toggleMobileMenu } = userSlice.actions;
+export const { toggleInterest, setPreferences, addInvestment, toggleMobileMenu, addNotification, markNotificationsRead } = userSlice.actions;
 export default userSlice.reducer;

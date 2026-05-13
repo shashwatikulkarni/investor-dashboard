@@ -3,16 +3,27 @@
 import { Bell, Search, Moon, Sun, Menu } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { useAppDispatch } from '@/store/hooks';
+import { useAppDispatch, useAppSelector } from '@/store/hooks';
 import { setFilters } from '@/features/deals/dealsSlice';
-import { toggleMobileMenu } from '@/features/user/userSlice';
+import { toggleMobileMenu, markNotificationsRead } from '@/features/user/userSlice';
 import styles from './Topbar.module.css';
 
 export function Topbar() {
   const [theme, setTheme] = useState('dark');
   const [searchTerm, setSearchTerm] = useState('');
+  const [showNotifications, setShowNotifications] = useState(false);
   const router = useRouter();
   const dispatch = useAppDispatch();
+  const { notifications } = useAppSelector((state) => state.user);
+
+  const unreadCount = notifications.filter(n => !n.read).length;
+
+  const handleNotificationClick = () => {
+    setShowNotifications(!showNotifications);
+    if (!showNotifications && unreadCount > 0) {
+      dispatch(markNotificationsRead());
+    }
+  };
 
   const handleSearch = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === 'Enter' && searchTerm.trim()) {
@@ -61,10 +72,30 @@ export function Topbar() {
         <button className={styles.iconButton} onClick={toggleTheme} aria-label="Toggle Theme">
           {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
         </button>
-        <button className={styles.iconButton} aria-label="Notifications">
-          <Bell size={20} />
-          <span className={styles.badge}></span>
-        </button>
+        <div className={styles.notificationWrapper}>
+          <button className={styles.iconButton} aria-label="Notifications" onClick={handleNotificationClick}>
+            <Bell size={20} />
+            {unreadCount > 0 && <span className={styles.badge}>{unreadCount}</span>}
+          </button>
+          
+          {showNotifications && (
+            <div className={styles.notificationDropdown}>
+              <h4>Notifications</h4>
+              {notifications.length === 0 ? (
+                <p className={styles.emptyNotif}>No new notifications.</p>
+              ) : (
+                <ul className={styles.notifList}>
+                  {notifications.map(n => (
+                    <li key={n.id} className={styles.notifItem}>
+                      <span className={styles.notifTime}>{new Date(n.timestamp).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}</span>
+                      <p>{n.message}</p>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          )}
+        </div>
       </div>
     </header>
   );

@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import { useAppDispatch, useAppSelector } from '@/store/hooks';
-import { addInvestment } from '@/features/user/userSlice';
+import { addInvestment, addNotification } from '@/features/user/userSlice';
 import { dealService } from '@/services/dealService';
 import { Deal } from '@/types';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
@@ -28,6 +28,7 @@ export default function DealDetails() {
   const handleInvest = () => {
     if (typeof id === 'string' && !isInvested) {
       dispatch(addInvestment(id));
+      dispatch(addNotification(`You successfully invested in ${deal?.companyName || 'this deal'}.`));
       alert(`Successfully invested in ${deal?.companyName}!`);
     }
   };

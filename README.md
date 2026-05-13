@@ -64,3 +64,4 @@ A highly interactive and data-rich web dashboard for investors and corporates, b
    ```
 
 4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. "investor-dashboard-g745-4bhace14z-shashwatikulkarnis-projects.vercel.app" this is the live vercel link to see the project.
